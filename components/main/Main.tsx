@@ -108,7 +108,7 @@ const Main = () => {
                         tableData={ordersState.orders}
                         refs={ordersRefs}
                         ordersCalc={0}
-                        type={'Order'}
+                        
                     />
                     <Table
                         headerName={'Drivers'}
@@ -116,7 +116,6 @@ const Main = () => {
                         tableData={driversState.drivers}
                         refs={driversRefs}
                         ordersCalc={ordersCalc}
-                        type={'Driver'}
                     />
                 </div>
             </div>
