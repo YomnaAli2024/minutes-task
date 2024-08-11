@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-left: 1rem;
+    width: 20rem;
+
+    .selectInput {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .labelContainer {
+            width: 90%;
+            label {
+                display: flex;
+                justify-content: space-between;
+                // width: 100%;
+                cursor: pointer;
+                p{
+                    color:#989797;
+                    align-self: center;
+
+                }
+            }
+        }
+
+        .arrow {
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid #000;
+            margin-right: 0px;
+            position: absolute;
+            right: 20px;
+            top:15px;
+            transition: transform 0.3s ease;
+        }
+
+        .arrow.up {
+           transform: rotate(180deg);
+        }
+
+        .options {
+            position: absolute;
+            padding: .25rem;
+            top: 100%;
+            left: 0;
+            right: 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+
+            p {
+                padding: 10px;
+                margin: 0;
+                cursor: pointer;
+            }
+
+            p:hover {
+                background-color: #ddd;
+            }
+        }
+    }
+}

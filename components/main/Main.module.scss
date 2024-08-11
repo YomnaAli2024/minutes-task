@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+
+    .sideNav {
+        //empty for now
+    }
+
+    .core {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        min-height: 100vh;
+        grid-column: 2/ 1 span;
+        width: 100%;
+
+        .header {
+            align-self: start;
+            margin: 5px;
+        }
+
+        .ordersDriversContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            width: 100%;
+        }
+    }
+}

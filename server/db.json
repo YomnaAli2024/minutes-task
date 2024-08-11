@@ -1,0 +1,124 @@
+{
+    "drivers": [
+        {
+            "id_user": 34,
+            "full_name": "Dima Arafat",
+            "driver_status": "scanning",
+            "warehouse_latitude": 25.198398,
+            "warehouse_longitude": 55.278070,
+            "waiting_loc_latitude": 25.1941478,
+            "waiting_loc_longitude": 55.2677267,
+            "timezone": "+04:00",
+            "vehicle_code": "car_toyota_rush_ae",
+            "vehicle_name": "Toyota Rush",
+            "vehicle_type_code": "car",
+            "vehicle_type_description": "Car"
+        },
+        {
+            "id_user": 32,
+            "full_name": "Esraa Sherif",
+            "driver_status": "scanning",
+            "warehouse_latitude": 25.203490,
+            "warehouse_longitude": 55.285872,
+            "waiting_loc_latitude": 25.200000,
+            "waiting_loc_longitude": 55.280000,
+            "timezone": "+04:00",
+            "vehicle_code": "motorcycle_normal_ae",
+            "vehicle_name": "Standard Motorcycle",
+            "vehicle_type_code": "motorcycle",
+            "vehicle_type_description": "Motorcycle"
+        },
+        {
+            "id_user": 21,
+            "full_name": "Anup Samyal",
+            "driver_status": "busy",
+            "warehouse_latitude": 25.204346,
+            "warehouse_longitude": 55.284081,
+            "waiting_loc_latitude": 25.205000,
+            "waiting_loc_longitude": 55.290000,
+            "timezone": "+04:00",
+            "vehicle_code": "motorcycle_normal_ae",
+            "vehicle_name": "Standard Motorcycle",
+            "vehicle_type_code": "motorcycle",
+            "vehicle_type_description": "Motorcycle"
+        },
+        {
+            "id_user": 24,
+            "full_name": "Ola Sameh",
+            "driver_status": "ready",
+            "warehouse_latitude": 25.191155,
+            "warehouse_longitude": 55.274693,
+            "waiting_loc_latitude": 25.188000,
+            "waiting_loc_longitude": 55.275000,
+            "timezone": "+04:00",
+            "vehicle_code": "car_toyota_rush_ae",
+            "vehicle_name": "Toyota Rush",
+            "vehicle_type_code": "car",
+            "vehicle_type_description": "Car"
+        }
+    ],
+    "orders": [
+        {
+            "order_nr": "IAEE7V002RPZ93X4JS",
+            "order_status": "created",
+            "awb_nr": null,
+            "delivery_address": {
+                "lat": 25.1987675,
+                "lng": 55.2749021,
+                "contact_name": "joud zouzou"
+            },
+            "estimated_pickup_at": "2024-07-31T00:36:12",
+            "estimated_delivery_at": null,
+            "timezone": "+04:00",
+            "country_code": "ae",
+            "id_delivery_job": null,
+            "warehouse_code": "W00000002A"
+        },
+        {
+            "order_nr": "test__1",
+            "order_status": "created",
+            "awb_nr": "PCB234777A",
+            "delivery_address": {
+                "lat": 25.2000935,
+                "lng": 55.2736257,
+                "contact_name": "Yasser Yasser"
+
+            },
+            "estimated_pickup_at": "2024-10-28T08:43:44",
+            "estimated_delivery_at": null,
+            "timezone": "+04:00",
+            "country_code": "ae",
+            "id_delivery_job": null,
+            "warehouse_code": "W00000002A"
+        },
+        {
+            "order_nr": "test__2",
+            "order_status": "created",
+            "awb_nr": null,
+            "delivery_address": {
+                "lat": 25.1991000,
+                "lng": 55.2753000,
+                "contact_name": "Yasser Yasser"
+            },
+            "estimated_pickup_at": "2024-10-28T08:43:44",
+            "estimated_delivery_at": null,
+            "timezone": "+04:00",
+            "country_code": "ae",
+            "warehouse_code": "W00000002A"
+        },
+        {
+            "order_nr": "test__3",
+            "order_status": "created",
+            "awb_nr": null,
+            "delivery_address": {
+                "lat": 25.1998000,
+                "lng": 55.2732000,
+                "contact_name": "Yasser Yasser"
+            },
+            "estimated_pickup_at": "2024-10-28T08:43:44",
+            "estimated_delivery_at": null,
+            "timezone": "+04:00",
+            "country_code": "ae"
+        }
+    ]
+}
