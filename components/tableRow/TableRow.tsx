@@ -37,7 +37,7 @@ const TableRow = forwardRef<HTMLTableRowElement, { rowData: Row }>(({ rowData },
         return 0;
     }, [rowData]);
 
-    const statusStyle = {
+    const statusStyle : any = {
         ready: { backgroundColor: 'rgba(0, 128, 0, 0.15)', color: 'green' },
         busy: { backgroundColor: 'rgba(128, 13, 0, 0.15)', color: 'red' },
         scanning: { backgroundColor: '#125b9a3e', color: '#125b9a' },

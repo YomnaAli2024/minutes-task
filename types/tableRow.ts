@@ -1,7 +1,9 @@
 export type Row = {
+    [key: string]: any;
     icon?: string,
     name?: string,
-    status?: string,
+    driverStatus?: string,
+    orderStatus?: string,
     vehicle?: string,
     orderNum?: string,
     estimatedPickup?: string,

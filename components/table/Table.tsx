@@ -47,9 +47,9 @@ const Table = ({
                         </tr>
                     </thead>
                     <tbody>
-                        {tableData.map((rowData: DriverType | OrderType, index) => (
+                        {tableData.map((rowData: any, index) => (
                             <TableRow
-                                ref={(ele) => (refs.current[index] = ele)}
+                                ref={(ele:any) => (refs.current[index] = ele)}
                                 rowData={{
                                     icon: rowData.vehicle_type_code,
                                     name: rowData.full_name,

@@ -27,7 +27,7 @@ const NormalSelection = ({ options }: { options: {img:string, label:string}[] })
                 {isOpened ? (
                     <div className={styles.options}>
                         {options.map((option) => (
-                            <div className={styles.labelContainer} key={option} onClick={handleClick}>
+                            <div className={styles.labelContainer} key={option.label} onClick={handleClick}>
                               <label htmlFor="option">
                                 <img src={option.img} alt="" />
                                 <p>{option.label}</p>
